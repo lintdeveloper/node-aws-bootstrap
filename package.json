@@ -1,0 +1,8 @@
+{
+  "name": "node-aws-bootstrap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lintdeveloper/node-aws-bootstrap.git",
+  "author": "lintdeveloper <musabrillz@gmail.com>",
+  "license": "MIT"
+}
