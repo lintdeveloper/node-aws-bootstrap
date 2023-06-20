@@ -1,0 +1,2 @@
+// executable deploy script
+chmod +x deploy-infra.sh
