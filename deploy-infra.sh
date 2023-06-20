@@ -2,7 +2,7 @@
 
 STACK_NAME=node-aws-bootstrap
 REGION=eu-west-2
-CLI_PROFILE=awsbootrap
+CLI_PROFILE=default
 
 EC2_INSTANCE_TYPE=t2.micro
 
@@ -15,5 +15,4 @@ aws cloudformation deploy \
   --template-file main.yml \
   --no-fail-on-empty-changeset \
   --capabilities CAPABILITY_NAMED_IAM \
-  --parameter-overrides \ 
-    EC2InstanceType=$EC2_INSTANCE_TYPE
+  --parameter-overrides EC2InstanceType=$EC2_INSTANCE_TYPE
